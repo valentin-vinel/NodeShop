@@ -1,0 +1,29 @@
+{
+  "name": "nodeshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentin-vinel/NodeShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentin-vinel/NodeShop/issues"
+  },
+  "homepage": "https://github.com/valentin-vinel/NodeShop#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "pg": "^8.15.6",
+    "sequelize": "^6.37.7"
+  }
+}
